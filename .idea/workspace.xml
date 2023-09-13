@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3141fa7-3613-4ac5-b60e-0a5f6ffa1197" name="Changes" comment="Initial Commit of Features" />
+    <list default="true" id="f3141fa7-3613-4ac5-b60e-0a5f6ffa1197" name="Changes" comment="Adding your pick functionality" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,15 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/Users/Scott/PycharmProjects/lol-adc-picker/data",
-    "last_opened_file_path": "C:/Users/Scott/PycharmProjects/lol-adc-picker"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Scott/PycharmProjects/lol-adc-picker/data&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Scott/PycharmProjects/lol-adc-picker&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Scott\PycharmProjects\lol-adc-picker" />
       <recent name="C:\Users\Scott\PycharmProjects\lol-adc-picker\data" />
       <recent name="C:\Users\Scott\PycharmProjects\lol-adc-picker\py" />
     </key>
@@ -66,11 +67,28 @@
       <option name="project" value="LOCAL" />
       <updated>1694636844017</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding your pick functionality">
+      <option name="closed" value="true" />
+      <created>1694637907910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694637907910</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding your pick functionality">
+      <option name="closed" value="true" />
+      <created>1694637962852</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694637962852</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit of Features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit of Features" />
+    <MESSAGE value="Adding your pick functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding your pick functionality" />
   </component>
 </project>

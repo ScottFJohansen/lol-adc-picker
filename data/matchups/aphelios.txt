@@ -19,6 +19,3 @@ Ashe
 Nautilus
 Bard
 +
-Thresh
-Lulu
-Braum
