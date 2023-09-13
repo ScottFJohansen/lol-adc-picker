@@ -16,9 +16,3 @@ Ashe
 Braum
 Blitzcrank
 +
-Leona
-Nautilus
-Thresh
-Blitzcrank
-Alistar
-Braum
