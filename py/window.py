@@ -50,8 +50,22 @@ class window:
         self.result2ValueLabel.config(text=sorted_adcArray[1][1])
         self.result3ValueLabel.config(text=sorted_adcArray[1][2])
         self.result4ValueLabel.config(text=sorted_adcArray[1][3])
-        self.yourPickLabel.config()
-        self.yourPickValueLabel.config()
+        if self.youPicklist.get() != '':
+            yourPickScore = 0
+            for status in self.matchupArray[self.youPicklist.get().lower()]:
+                if status == 'name' or status == 'current':
+                    continue
+                if status == '-':
+                    for champion in selectedChampions:
+                        if champion in self.matchupArray[self.youPicklist.get().lower()][status]:
+                            yourPickScore -= 1
+                elif status == '+':
+                    for champion in selectedAllies:
+                        if champion in self.matchupArray[self.youPicklist.get().lower()][status]:
+                            yourPickScore += 1
+            self.yourPickLabel.config(text=self.youPicklist.get().capitalize() + ':')
+            self.yourPickValueLabel.config(text=str(yourPickScore))
+
 
 
 
